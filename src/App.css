@@ -1,0 +1,386 @@
+/* Common styles for both components */
+.title {
+  color: white;
+  font-size: 150px;
+  text-shadow: black;
+  text-align: center;
+  margin: 25px 0;
+  font-family: 'HKGrotesk';
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.App img {
+  max-width: 80%;
+  height: 160px;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.caption {
+  color: #00bf63;
+  font-size: 30px;
+  text-shadow: black;
+  text-align: center;
+  margin: 10px 0;
+  font-family: 'HKGrotesk';
+}
+
+.nav-container {
+  color: white;
+  font-size: 20px;
+  text-shadow: black;
+  display: flex;
+  margin-right: 50px;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 40px;
+  padding: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white !important;
+  text-shadow: black;
+  transition: background-color 0.3s, color 0.3s, border-bottom 0.3s; /* Add transition for smooth effect */
+  border-bottom: 2px solid transparent; /* Initially set the border to transparent */
+}
+
+.nav-link:hover {
+ 
+  color: greenyellow;
+  border-bottom: 2px solid greenyellow; /* Change the border color on hover */
+}
+
+.author {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 5px;
+  background-color: #050a30;
+  color: white;
+}
+
+/* Styles for the Dashboard component */
+.dashboard h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  text-shadow: black;
+  color: white;
+}
+
+.product-order-container {
+  display: flex;
+  justify-content: center;
+}
+
+.product-order-container h2 {
+  text-align: center;
+}
+
+.div-container,
+.div-container1 {
+  width: 300px;
+  height: 100%;
+  background-color: white;
+  margin: 40px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 2px rgb(12, 11, 11);
+  border-radius: 5px;
+}
+
+.link-container {
+  display: flex;
+  justify-content: center;
+}
+
+.div-container1 {
+  height: 100%;
+}
+
+.div-container1 a {
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  display: block;
+}
+
+/* Styles for the Products component */
+.profile-card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.profile-card {
+  background-color: white;
+  box-shadow: 0px 0px 10px 2px black;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.profile-card img {
+  width: 100%;
+  max-height: 200px;
+}
+
+.form-container {
+  max-width: 100%;
+  align-items: center;
+  margin: 10px 300px 20px;
+}
+
+.search-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.search-row select,
+.search-row input[type="text"] {
+  margin-right: 10px;
+  height: 30px;
+  width: 100%;
+  font-size: 20px;
+}
+
+.search-row button {
+  margin-right: 10px;
+  height: 45px;
+  padding: 5px;
+  background-color: #84db0b;
+  font-size: 15px;
+  width: 100%;
+}
+/* Define styles for buttons */
+.add-button {
+  background-color: #84db0b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.vieworder {
+  color: blue; /* Link color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Make the text bold */
+  /* Add any other styles as needed */
+}
+
+/* Hover effect */
+.vieworder:hover {
+  color: darkblue; /* Change color on hover */
+  /* Add any other hover styles as needed */
+}
+
+
+.edit-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 5px;
+  margin-left: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.update-status-button {
+  background-color: #eb1111;
+  color: white;
+  border: none;
+  margin-left: 5px;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+.dropdown-select {
+  margin-right: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  margin-left: 5px;
+  color: white;
+  background-color:darkslateblue;
+}
+.save-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Styles for the CalendarView component */
+.calendar {
+  width: 100%;
+}
+
+.order {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  margin-right: 40px;
+  text-align: center;
+  background-color: white;
+}
+
+.order p {
+  margin: 5px 0;
+}
+
+.order p strong {
+  color: #007bff;
+}
+
+.order p strong {
+  color: #28a745;
+}
+
+.order p strong {
+  color: #dc3545;
+}
+
+.order p strong {
+  color: #ffc107;
+}
+
+/* Media queries for different device widths */
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 100px;
+    margin: 15px 0;
+  }
+
+  .App img {
+    height: 100px;
+    margin-top: 20px;
+  }
+
+  .caption {
+    font-size: 20px;
+  }
+
+  .nav-container {
+    font-size: 10px;
+    margin-right: 5px;
+    gap: 5px;
+  }
+
+  .div-container,
+  .div-container1 {
+    width: 250px;
+    margin: 20px;
+  }
+  /* Media query for mobile screens */
+@media only screen and (max-width: 767px) {
+  .dashboard h1 {
+    font-size: 30px; /* Decrease font size for h1 */
+  }
+
+  .product-order-container {
+    flex-direction: column; /* Change flex direction to column for better stacking */
+  }
+
+  .product-order-container h2 {
+    font-size: 25px; /* Decrease font size for h2 */
+  }
+
+  .div-container,
+  .div-container1 {
+    width: 250px; /* Decrease width for better fit */
+    margin: 20px; /* Adjust margin for better spacing */
+    padding: 15px; /* Decrease padding */
+  }
+
+  .div-container1 a {
+    font-size: 18px; /* Decrease font size for links */
+  }
+}
+.profile-card-container {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjust grid columns for better fit */
+  gap: 10px; /* Decrease gap between cards for better spacing */
+  margin-bottom: 10px; /* Decrease margin bottom for cards */
+}
+
+.profile-card {
+  padding: 15px; /* Decrease padding for profile cards */
+}
+
+.profile-card img {
+  max-height: 150px; /* Decrease max height for profile card images */
+}
+
+.form-container {
+  margin: 10px; /* Adjust margin for better spacing */
+}
+
+.search-row {
+  gap: 10px; /* Decrease gap between elements */
+}
+
+.search-row select,
+.search-row input[type="text"] {
+  font-size: 16px; /* Decrease font size for inputs */
+}
+
+.search-row button {
+  height: 40px; /* Decrease height for buttons */
+  font-size: 14px; /* Decrease font size for buttons */
+}
+
+}
+
+@media only screen and (min-width: 769px) {
+  .title {
+    font-size: 150px;
+    margin: 25px 0;
+  }
+  .nav-container {
+    font-size: 16px;
+    margin-right: 5px; 
+    /* Adjust margin for better spacing */
+  }
+
+  .App img {
+    height: 160px;
+    margin-top: 50px;
+  }
+
+  .caption {
+    font-size: 30px;
+  }
+
+  .nav-container {
+    font-size: 20px;
+  }
+
+  .div-container,
+  .div-container1 {
+    width: 300px;
+    margin: 40px;
+  }
+}
