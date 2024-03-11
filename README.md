@@ -1,37 +1,36 @@
 
-```markdown
-## Usage
+Usage
 
-    ```
+
    Link to access the website: [https://yashmart-erp.netlify.app/](https://yashmart-erp.netlify.app/)
-    ```
+   
 
 
 
 
 1. **Clone the repository to your local machine:**
 
-    ```bash
+  
     git clone <repository_url>
-    ```
+   
 
 2. **Navigate to the project directory:**
 
-    ```bash
+ 
     cd <project_directory>
-    ```
+   
 
 3. **Install dependencies:**
 
-    ```bash
+    
     npm install
-    ```
+   
 
 4. **Start the development server:**
 
-    ```bash
+  
     npm start
-    ```
+    
 
 5. **Open your web browser and go to [http://localhost:3000](http://localhost:3000) to view the application.**
 
@@ -98,4 +97,3 @@
 ## Credits
 
 - **Author:** Meghana Rajanala
-```
